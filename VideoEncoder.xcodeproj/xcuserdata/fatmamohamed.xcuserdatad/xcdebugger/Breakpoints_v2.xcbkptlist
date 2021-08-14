@@ -14,8 +14,8 @@
             filePath = "VideoEncoder/EncodeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "290"
-            endingLineNumber = "290"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
             landmarkName = "encodeVideo(videoToCompress:destinationPath:size:compressionTransform:compressionConfig:completionHandler:errorHandler:cancelHandler:framesDone:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "VideoEncoder/EncodeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "348"
-            endingLineNumber = "348"
+            startingLineNumber = "350"
+            endingLineNumber = "350"
             landmarkName = "encodeVideo(videoToCompress:destinationPath:size:compressionTransform:compressionConfig:completionHandler:errorHandler:cancelHandler:framesDone:)"
             landmarkType = "7">
          </BreakpointContent>

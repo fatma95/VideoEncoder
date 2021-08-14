@@ -148,10 +148,12 @@ typealias CompressionSize = (width: Int, height: Int)
                 ]
                 
                 let videoOutputSettings: Dictionary<String, Any> = [
+                    
                     AVVideoWidthKey : size == nil ? videoTrack.naturalSize.width : size!.width,
                     AVVideoHeightKey : size == nil ? videoTrack.naturalSize.height : size!.height,
                     AVVideoCodecKey : AVVideoCodecType.h264,
                     AVVideoCompressionPropertiesKey : videoCompressionProps
+                    
                 ]
                 let videoInput = AVAssetWriterInput(mediaType: AVMediaType.video, outputSettings: videoOutputSettings)
                 videoInput.expectsMediaDataInRealTime = false
