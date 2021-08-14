@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA7D45E26C5A567006A8A35 /* VideoEncoderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7D45D26C5A567006A8A35 /* VideoEncoderApp.swift */; };
+		FCA7D46026C5A567006A8A35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7D45F26C5A567006A8A35 /* ContentView.swift */; };
+		FCA7D46226C5A56A006A8A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA7D46126C5A56A006A8A35 /* Assets.xcassets */; };
+		FCA7D46526C5A56A006A8A35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA7D46426C5A56A006A8A35 /* Preview Assets.xcassets */; };
+		FCA7D47026C5A56A006A8A35 /* VideoEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7D46F26C5A56A006A8A35 /* VideoEncoderTests.swift */; };
+		FCA7D47B26C5A56A006A8A35 /* VideoEncoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7D47A26C5A56A006A8A35 /* VideoEncoderUITests.swift */; };
+		FCA7D48926C5BB27006A8A35 /* EncodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7D48826C5BB27006A8A35 /* EncodeViewModel.swift */; };
+		FCA7D48B26C5C3B2006A8A35 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7D48A26C5C3B2006A8A35 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA7D46C26C5A56A006A8A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA7D45226C5A567006A8A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA7D45926C5A567006A8A35;
+			remoteInfo = VideoEncoder;
+		};
+		FCA7D47726C5A56A006A8A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA7D45226C5A567006A8A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA7D45926C5A567006A8A35;
+			remoteInfo = VideoEncoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA7D45A26C5A567006A8A35 /* VideoEncoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEncoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA7D45D26C5A567006A8A35 /* VideoEncoderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEncoderApp.swift; sourceTree = "<group>"; };
+		FCA7D45F26C5A567006A8A35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCA7D46126C5A56A006A8A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA7D46426C5A56A006A8A35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCA7D46626C5A56A006A8A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA7D46B26C5A56A006A8A35 /* VideoEncoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEncoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA7D46F26C5A56A006A8A35 /* VideoEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEncoderTests.swift; sourceTree = "<group>"; };
+		FCA7D47126C5A56A006A8A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA7D47626C5A56A006A8A35 /* VideoEncoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEncoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA7D47A26C5A56A006A8A35 /* VideoEncoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEncoderUITests.swift; sourceTree = "<group>"; };
+		FCA7D47C26C5A56A006A8A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA7D48826C5BB27006A8A35 /* EncodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeViewModel.swift; sourceTree = "<group>"; };
+		FCA7D48A26C5C3B2006A8A35 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA7D45726C5A567006A8A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA7D46826C5A56A006A8A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA7D47326C5A56A006A8A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA7D45126C5A567006A8A35 = {
+			isa = PBXGroup;
+			children = (
+				FCA7D45C26C5A567006A8A35 /* VideoEncoder */,
+				FCA7D46E26C5A56A006A8A35 /* VideoEncoderTests */,
+				FCA7D47926C5A56A006A8A35 /* VideoEncoderUITests */,
+				FCA7D45B26C5A567006A8A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA7D45B26C5A567006A8A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7D45A26C5A567006A8A35 /* VideoEncoder.app */,
+				FCA7D46B26C5A56A006A8A35 /* VideoEncoderTests.xctest */,
+				FCA7D47626C5A56A006A8A35 /* VideoEncoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA7D45C26C5A567006A8A35 /* VideoEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7D45D26C5A567006A8A35 /* VideoEncoderApp.swift */,
+				FCA7D45F26C5A567006A8A35 /* ContentView.swift */,
+				FCA7D48826C5BB27006A8A35 /* EncodeViewModel.swift */,
+				FCA7D48A26C5C3B2006A8A35 /* LoadingView.swift */,
+				FCA7D46126C5A56A006A8A35 /* Assets.xcassets */,
+				FCA7D46626C5A56A006A8A35 /* Info.plist */,
+				FCA7D46326C5A56A006A8A35 /* Preview Content */,
+			);
+			path = VideoEncoder;
+			sourceTree = "<group>";
+		};
+		FCA7D46326C5A56A006A8A35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7D46426C5A56A006A8A35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCA7D46E26C5A56A006A8A35 /* VideoEncoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7D46F26C5A56A006A8A35 /* VideoEncoderTests.swift */,
+				FCA7D47126C5A56A006A8A35 /* Info.plist */,
+			);
+			path = VideoEncoderTests;
+			sourceTree = "<group>";
+		};
+		FCA7D47926C5A56A006A8A35 /* VideoEncoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7D47A26C5A56A006A8A35 /* VideoEncoderUITests.swift */,
+				FCA7D47C26C5A56A006A8A35 /* Info.plist */,
+			);
+			path = VideoEncoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA7D45926C5A567006A8A35 /* VideoEncoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA7D47F26C5A56A006A8A35 /* Build configuration list for PBXNativeTarget "VideoEncoder" */;
+			buildPhases = (
+				FCA7D45626C5A567006A8A35 /* Sources */,
+				FCA7D45726C5A567006A8A35 /* Frameworks */,
+				FCA7D45826C5A567006A8A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoEncoder;
+			productName = VideoEncoder;
+			productReference = FCA7D45A26C5A567006A8A35 /* VideoEncoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA7D46A26C5A56A006A8A35 /* VideoEncoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA7D48226C5A56A006A8A35 /* Build configuration list for PBXNativeTarget "VideoEncoderTests" */;
+			buildPhases = (
+				FCA7D46726C5A56A006A8A35 /* Sources */,
+				FCA7D46826C5A56A006A8A35 /* Frameworks */,
+				FCA7D46926C5A56A006A8A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA7D46D26C5A56A006A8A35 /* PBXTargetDependency */,
+			);
+			name = VideoEncoderTests;
+			productName = VideoEncoderTests;
+			productReference = FCA7D46B26C5A56A006A8A35 /* VideoEncoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA7D47526C5A56A006A8A35 /* VideoEncoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA7D48526C5A56A006A8A35 /* Build configuration list for PBXNativeTarget "VideoEncoderUITests" */;
+			buildPhases = (
+				FCA7D47226C5A56A006A8A35 /* Sources */,
+				FCA7D47326C5A56A006A8A35 /* Frameworks */,
+				FCA7D47426C5A56A006A8A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA7D47826C5A56A006A8A35 /* PBXTargetDependency */,
+			);
+			name = VideoEncoderUITests;
+			productName = VideoEncoderUITests;
+			productReference = FCA7D47626C5A56A006A8A35 /* VideoEncoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA7D45226C5A567006A8A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FCA7D45926C5A567006A8A35 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FCA7D46A26C5A56A006A8A35 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FCA7D45926C5A567006A8A35;
+					};
+					FCA7D47526C5A56A006A8A35 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FCA7D45926C5A567006A8A35;
+					};
+				};
+			};
+			buildConfigurationList = FCA7D45526C5A567006A8A35 /* Build configuration list for PBXProject "VideoEncoder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA7D45126C5A567006A8A35;
+			productRefGroup = FCA7D45B26C5A567006A8A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA7D45926C5A567006A8A35 /* VideoEncoder */,
+				FCA7D46A26C5A56A006A8A35 /* VideoEncoderTests */,
+				FCA7D47526C5A56A006A8A35 /* VideoEncoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA7D45826C5A567006A8A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA7D46526C5A56A006A8A35 /* Preview Assets.xcassets in Resources */,
+				FCA7D46226C5A56A006A8A35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA7D46926C5A56A006A8A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA7D47426C5A56A006A8A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA7D45626C5A567006A8A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA7D48926C5BB27006A8A35 /* EncodeViewModel.swift in Sources */,
+				FCA7D48B26C5C3B2006A8A35 /* LoadingView.swift in Sources */,
+				FCA7D46026C5A567006A8A35 /* ContentView.swift in Sources */,
+				FCA7D45E26C5A567006A8A35 /* VideoEncoderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA7D46726C5A56A006A8A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA7D47026C5A56A006A8A35 /* VideoEncoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA7D47226C5A56A006A8A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA7D47B26C5A56A006A8A35 /* VideoEncoderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA7D46D26C5A56A006A8A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA7D45926C5A567006A8A35 /* VideoEncoder */;
+			targetProxy = FCA7D46C26C5A56A006A8A35 /* PBXContainerItemProxy */;
+		};
+		FCA7D47826C5A56A006A8A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA7D45926C5A567006A8A35 /* VideoEncoder */;
+			targetProxy = FCA7D47726C5A56A006A8A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCA7D47D26C5A56A006A8A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA7D47E26C5A56A006A8A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA7D48026C5A56A006A8A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoEncoder/Preview Content\"";
+				DEVELOPMENT_TEAM = H8Y758UDH3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VideoEncoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoder.VideoEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA7D48126C5A56A006A8A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoEncoder/Preview Content\"";
+				DEVELOPMENT_TEAM = H8Y758UDH3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VideoEncoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoder.VideoEncoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCA7D48326C5A56A006A8A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoEncoderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdotai.VideoEncoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoEncoder.app/VideoEncoder";
+			};
+			name = Debug;
+		};
+		FCA7D48426C5A56A006A8A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoEncoderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdotai.VideoEncoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoEncoder.app/VideoEncoder";
+			};
+			name = Release;
+		};
+		FCA7D48626C5A56A006A8A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoEncoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdotai.VideoEncoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoEncoder;
+			};
+			name = Debug;
+		};
+		FCA7D48726C5A56A006A8A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoEncoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdotai.VideoEncoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoEncoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA7D45526C5A567006A8A35 /* Build configuration list for PBXProject "VideoEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA7D47D26C5A56A006A8A35 /* Debug */,
+				FCA7D47E26C5A56A006A8A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA7D47F26C5A56A006A8A35 /* Build configuration list for PBXNativeTarget "VideoEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA7D48026C5A56A006A8A35 /* Debug */,
+				FCA7D48126C5A56A006A8A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA7D48226C5A56A006A8A35 /* Build configuration list for PBXNativeTarget "VideoEncoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA7D48326C5A56A006A8A35 /* Debug */,
+				FCA7D48426C5A56A006A8A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA7D48526C5A56A006A8A35 /* Build configuration list for PBXNativeTarget "VideoEncoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA7D48626C5A56A006A8A35 /* Debug */,
+				FCA7D48726C5A56A006A8A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA7D45226C5A567006A8A35 /* Project object */;
+}
