@@ -99,10 +99,9 @@
 		FCA7D45C26C5A567006A8A35 /* VideoEncoder */ = {
 			isa = PBXGroup;
 			children = (
+				FCA7D48D26C85331006A8A35 /* ViewModel */,
 				FCA7D45D26C5A567006A8A35 /* VideoEncoderApp.swift */,
-				FCA7D45F26C5A567006A8A35 /* ContentView.swift */,
-				FCA7D48826C5BB27006A8A35 /* EncodeViewModel.swift */,
-				FCA7D48A26C5C3B2006A8A35 /* LoadingView.swift */,
+				FCA7D48C26C85319006A8A35 /* View */,
 				FCA7D46126C5A56A006A8A35 /* Assets.xcassets */,
 				FCA7D46626C5A56A006A8A35 /* Info.plist */,
 				FCA7D46326C5A56A006A8A35 /* Preview Content */,
@@ -134,6 +133,23 @@
 				FCA7D47C26C5A56A006A8A35 /* Info.plist */,
 			);
 			path = VideoEncoderUITests;
+			sourceTree = "<group>";
+		};
+		FCA7D48C26C85319006A8A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7D45F26C5A567006A8A35 /* ContentView.swift */,
+				FCA7D48A26C5C3B2006A8A35 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCA7D48D26C85331006A8A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7D48826C5BB27006A8A35 /* EncodeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
